@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input class="input" id="input" type="text">
+        </div>
+        <div class="buttons">
+            <button onclick="clearRes()">AC</button>
+            <button onclick=" clr()">CE</button>
+            <button onclick="num('%')">%</button>
+            <button onclick="num('/')" class="same">/</button>
+        </div>
+        <div class="buttons">
+            <button onclick="num(7)">7</button>
+            <button onclick="num(8)">8</button>
+            <button onclick="num(9)">9</button>
+            <button onclick="num('*')" class="same">X</button>
+        </div>
+        <div class="buttons">
+            <button onclick="num(4)">4</button>
+            <button onclick="num(5)">5</button>
+            <button onclick="num(6)">6</button>
+            <button onclick="num('-')" class="same">-</button>
+        </div>
+        <div class="buttons">
+            <button onclick="num(1)">1</button>
+            <button onclick="num(2)">2</button>
+            <button onclick="num(3)">3</button>
+            <button onclick="num('+')" class="same">+</button>
+        </div>
+        <div class="buttons">
+            <button onclick="num(0)" class="zero">0</button>
+            <button onclick="num('.')">.</button>
+            <button onclick="eqRes()" class="same">=</button>
+        </div>
+    </div>
+</body>
+<script src="Js/app.js"></script>
+
+</html>

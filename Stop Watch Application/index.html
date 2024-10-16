@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+        }
+
+        .h1 {
+            display: inline-block;
+            background-color: white;
+            width: 150px;
+            padding: 12px 30px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 45px;
+        }
+
+        .main {
+            background-color: white;
+            width: 100px;
+            display: inline-block;
+            width: 100%;
+            padding: 15px 4px;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 800;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 12px 30px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .hBtn {
+            display: inline-block;
+            margin-top: 2rem;
+            text-transform: uppercase;
+            background-image: linear-gradient(to right, black, rgb(200, 200, 202), rgb(246, 246, 246), black ) ;
+            border: 1px double  rgb(145, 145, 146);
+            color: rgb(44, 44, 44);
+            padding: 2rem 2rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-radius: .4rem;
+            width: 30%;
+            height: 10vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2 class="main">Stop Watch Application</h2>
+        <h1 class="h1" id="min">0</h1>
+        <h1 class="h1" id="sec">0</h1>
+        <h1 class="h1" id="msec">0</h1>
+    </div>
+
+    <div>
+        <button onclick="start()" id="myBtn">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <div>
+        <button class="hBtn" onclick="record()">Save Records</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

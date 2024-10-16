@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nodule": "^0.0.6",
+    "prompt-sync": "^4.2.0"
+  }
+}

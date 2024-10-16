@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonial Slider</title>
+  <script src="app.js" defer></script>
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.934);
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      color: rgb(158, 156, 156);
+      background-color: rgb(34, 33, 33);
+      width: 50%;
+      height: 40vh;
+      padding: 5px 20px;
+      text-align: center;
+      margin: 100px auto;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    span {
+      display: inline-block;
+      color: gray;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    .flex {
+      display: flex;
+      flex-direction: column;
+      height: 5vh;
+    }
+  </style>
+</head>
+
+<body onload="abc()">
+  <div>
+    <div class="flex">
+      <h1 id="clients">0</h1>
+      <span>Happy Clients</span>
+    </div>
+
+    <div class="flex">
+      <h1 id="projects">0</h1>
+      <span>Our Projects</span>
+    </div>
+
+    <div class="flex">
+      <h1 id="support">0</h1>
+      <span>Hours Of Support</span>
+    </div>
+
+    <div class="flex">
+      <h1 id="team">0</h1>
+      <span>Hard Workers</span>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(26, 68, 255, 0.842),
+    rgba(255, 67, 255, 0.705),
+    rgba(231, 117, 136, 0.849)
+  );
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  max-width: 70%;
+  margin: 100px auto;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bx {
+  justify-content: space-between;
+}
+
+.bx-right {
+  gap: 20px;
+}
+
+.fa-face-smile {
+  color: green;
+}
+
+.fa-face-meh {
+  color: rgb(121, 121, 121);
+}
+
+.fa-face-sad-tear {
+  color: rgb(255, 126, 51);
+}
+
+.fa-regular {
+  font-size: 21px;
+  & span {
+    font-size: 9px;
+  }
+}
+
+.response {
+  gap: 15px;
+  display: none;
+  max-width: 98%;
+  transform: translateX(2%);
+}
+
+.same {
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4px;
+}
+
+.r {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  & span {
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: capitalize !important;
+  }
+}
+
+.same p {
+  line-height: 20px;
+  font-size: 14px;
+  color: gray;
+}
+
+.fa-angle-down,
+.fa-angle-up {
+  color: gray;
+}
